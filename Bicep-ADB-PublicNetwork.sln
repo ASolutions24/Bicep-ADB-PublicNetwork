@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{455982A9-0D38-46A1-804A-DC07B521F3FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bicep-ADB-PublicNetwork", ".github\workflows\Bicep-ADB-PublicNetwork.csproj", "{C24FF46E-9295-405D-9F03-83864331D13F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C24FF46E-9295-405D-9F03-83864331D13F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C24FF46E-9295-405D-9F03-83864331D13F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C24FF46E-9295-405D-9F03-83864331D13F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C24FF46E-9295-405D-9F03-83864331D13F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C24FF46E-9295-405D-9F03-83864331D13F} = {455982A9-0D38-46A1-804A-DC07B521F3FF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44A6E465-8365-40DB-A249-6F3444CA9961}
+	EndGlobalSection
+EndGlobal
