@@ -1,1 +1,13 @@
- 
+
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageId>Bicep.ADB.PublicNetwork</PackageId>
+    <Authors>KU</Authors>
+    <Company>AS</Company>
+    <Product>Bicep.ADB.PublicNetwork</Product>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+</Project>
