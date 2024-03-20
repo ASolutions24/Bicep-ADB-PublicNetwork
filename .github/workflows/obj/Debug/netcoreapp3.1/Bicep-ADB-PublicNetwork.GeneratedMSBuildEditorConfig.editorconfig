@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Bicep-ADB-PublicNetwork
+build_property.ProjectDir = C:\TerraformProject\Git\AS-GitHub-Repository\Bicep-ADB-PublicNetwork\.github\workflows\
