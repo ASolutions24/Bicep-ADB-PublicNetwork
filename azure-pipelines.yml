@@ -95,4 +95,11 @@ stages:
                   
                   nslookup adb-870610531446437.17.azuredatabricks.net
                   
-                  Test-NetConnection -ComputerName adb-870610531446437.17.azuredatabricks.net -Port 443
+                  $ipaddress = "adb-870610531446437.17.azuredatabricks.net"
+                  $port = "443"
+                  $connection = New-Object System.Net.Sockets.TcpClient($ipaddress, $port)
+                  if ($connection.Connected) {
+                       Write-Host "Success" 
+                  } else { 
+                       Write-Host "Failed" 
+                  }
