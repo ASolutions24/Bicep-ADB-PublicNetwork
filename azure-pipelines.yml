@@ -87,3 +87,12 @@ stages:
                 csmParametersFile: '$(Build.SourcesDirectory)/$(templateParameterFile)'
                 deploymentMode: 'Incremental'
                 deploymentName: 'DeployPipelineTemplate'
+            - task: PowerShell@2
+              inputs:
+                targetType: 'inline'
+                script: |
+                  # Write your PowerShell commands here.
+                  
+                  nslookup adb-870610531446437.17.azuredatabricks.net
+                  
+                  Test-NetConnection -ComputerName adb-870610531446437.17.azuredatabricks.net -Port 443
