@@ -17,7 +17,8 @@ variables:
   resourceGroupName: 'rg-sec-dbw-prod'
 
 pool:
-  vmImage: $(vmImageName)
+  #vmImage: $(vmImageName)
+  name: AS-Windows
 
 stages:  
 
